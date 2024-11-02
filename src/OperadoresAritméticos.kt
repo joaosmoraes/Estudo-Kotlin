@@ -15,7 +15,8 @@ fun main() {
     val subtracaoFloat = idade - taxa // Resultado será Float
     val multiplicacaoFloat = idade * taxa // Resultado será Float
     val divisaoFloat = idade / taxa       // Resultado será Float
-    val restoFloat = idade % taxa         // Operação módulo com Float (conversão implícita)
+    val restoFloat = idade % taxa
+    // Operação módulo com Float (conversão implícita)
 
     // Resultados
     println("Operações Int e Int:")
@@ -31,6 +32,7 @@ fun main() {
     println("Multiplicação: $multiplicacaoFloat") // 45.0
     println("Divisão: $divisaoFloat")            // 20.0
     println("Resto da Divisão: $restoFloat")     // 0.0
+    println("final")
 
     /*
                       Operações Int e Float:
